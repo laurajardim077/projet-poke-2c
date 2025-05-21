@@ -1,9 +1,14 @@
 div {
+    
     display: flex;
+    flex-wrap: nowrap; 
     flex-direction: column;
-    flex-wrap: wrap; 
+    background-color: purple ;
+    width : 400px;
+    height: 300px;
+    overflow: auto;
 }
 img{ 
-    width: 2000px;
-    height: 1000px; 
+    width: 100px;
+    height: 80px; 
 }
