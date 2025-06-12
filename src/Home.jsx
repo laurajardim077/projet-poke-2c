@@ -4,20 +4,18 @@ import './Home.css'
 import PokeGrid from './PokeGrid'
 import PokeFlex from './PokeFlex'
 import Menu from './Menu'
-
+ 
 const Home = () => {
-
+ 
     return (
         <div>
-            </Menu>
-            <PokeGrid/>
-            <PokeFlex/>
-            <PokeGrid/>
-            <PokeFlex/>
-  
+            <Menu />
+            <PokeGrid />
+            <PokeFlex />
+            <PokeGrid />
+            <PokeFlex />
         </div>
     )
 }
+ 
 export default Home
-
-
